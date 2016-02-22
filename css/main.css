@@ -5,25 +5,34 @@ html {
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
-h1 {
+body {
   color: #5d1900;
   text-align: center;
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-color: #efeee9;
 }
 
-header ol {
+header ul {
   list-style-type: none;
   background-color: #9a816d;
   text-align: center;
+  margin: 1em;
+  padding: 0;
 
 }
+
 a {
   color: white;
   text-decoration: none;
+
 }
 
 a:hover {
   background-color: #795437;
+  display: block;
 }
