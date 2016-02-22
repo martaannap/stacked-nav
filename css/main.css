@@ -1,17 +1,29 @@
 html {
+  box-sizing: border-box;
   background-color: #efeee9;
   font-family: Dosis, sans-serif;
 }
 
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
 h1 {
   color: #5d1900;
+  text-align: center;
 }
 
 header ol {
   list-style-type: none;
   background-color: #9a816d;
+  text-align: center;
+
 }
 a {
   color: white;
   text-decoration: none;
+}
+
+a:hover {
+  background-color: #795437;
 }
